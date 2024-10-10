@@ -1,7 +1,9 @@
+import Header from "../../components/Header";
+
 export default function index() {
   return (
     <>
-      <h2>Home</h2>
+      <Header />
     </>
   );
 }

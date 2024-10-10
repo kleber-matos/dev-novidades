@@ -1,0 +1,44 @@
+[
+  {
+    "title": "O que é linguagem de programação? Conheça as principais",
+    "info": "Uma das mais populares vertentes da tecnologia da informação, a área de...",
+    "imagem": "",
+    "description": "Se você é apaixonado por programação, este vídeo é pra você! Prepare-se para mergulhar em um conteúdo cheio de insights e dicas práticas. Fique ligado na plataforma, porque vem muita novidade boa por aí! Não perca os próximos vídeos!",
+    "video": ""
+  },
+  {
+    "title": "HTML é uma linguagem de programação?",
+    "info": "HTML5 é uma linguagem de marcação para a World Wide Web e é uma tecnologia chave da Internet,",
+    "imagem": "",
+    "description": "...",
+    "video": ""
+  },
+  {
+    "title": "O que é uma IDE?",
+    "info": "Ambiente de Desenvolvimento Integrado é um programa de computador que reúne características e ferramentas de apoio ao desenvolvimento de software",
+    "imagem": "",
+    "description": "...",
+    "video": ""
+  },
+  {
+    "title": "ChatGPT é um chatbot desenvolvido pela OpenAI",
+    "info": "O nome ChatGPT combina Chat, referindo-se à sua funcionalidade de chatbot, e GPT, que significa Generative Pre-trained Transformer",
+    "imagem": "",
+    "description": "...",
+    "video": ""
+  },
+  {
+    "title": "O GitHub Copilot",
+    "info": "é uma ferramenta de inteligência artificial desenvolvida pelo GitHub em conjunto com a OpenAI",
+    "imagem": "",
+    "description": "...",
+    "video": ""
+  },
+  {
+    "title": "GIT e GitHub: o que são e quais as diferenças entre eles?",
+    "info": "Git e GibHub são dois softwares de controle de versão essenciais para...",
+    "imagem": "",
+    "description": "...",
+    "video": ""
+  }
+]
