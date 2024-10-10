@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function index() {
   return (
-    <header>
+    <S.Header>
       <img src={logo} alt="Logo marca da pagina" />
 
       <nav>
@@ -17,6 +17,6 @@ export default function index() {
           </li>
         </ul>
       </nav>
-    </header>
+    </S.Header>
   );
 }
