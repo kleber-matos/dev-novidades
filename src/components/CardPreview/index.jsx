@@ -1,9 +1,10 @@
 import * as S from "./style";
 
-export default function index({ video, description }) {
+export default function index({ video, description, title }) {
   return (
     <S.Section>
       <div>
+        <h2>{title}</h2>
         <iframe
           src={video}
           title="This entire Ad was written by ChatGPT (for ChatGPT)"
@@ -12,7 +13,7 @@ export default function index({ video, description }) {
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
         ></iframe>
-        <h2>Descrição</h2>
+        <h3>Descrição</h3>
         <p>{description}</p>
       </div>
     </S.Section>

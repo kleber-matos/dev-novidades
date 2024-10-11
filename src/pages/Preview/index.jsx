@@ -14,9 +14,9 @@ export default function index() {
   return (
     <>
       <Header />
-      <Text texto={selecioando.title} />
 
       <CardPreview
+        title={selecioando.title}
         video={selecioando.video}
         description={selecioando.description}
       />
