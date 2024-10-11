@@ -2,43 +2,49 @@
   {
     "title": "O que é linguagem de programação? Conheça as principais",
     "info": "Uma das mais populares vertentes da tecnologia da informação, a área de...",
-    "imagem": "https://marquesfernandes.com/wp-content/uploads/2020/08/ferenc-almasi-c8h0n7fSTqs-unsplash-1024x690.jpg",
+    "imagem": "https://universidadedatecnologia.com.br/wp-content/uploads/2017/12/o-que-%C3%A9-ling-prog.jpg",
     "description": "Se você é apaixonado por programação, este vídeo é pra você! Prepare-se para mergulhar em um conteúdo cheio de insights e dicas práticas. Fique ligado na plataforma, porque vem muita novidade boa por aí! Não perca os próximos vídeos!",
-    "video": ""
+    "video": "https://www.youtube.com/embed/22nd99SLgNA",
+    "id": 0
   },
   {
     "title": "HTML é uma linguagem de programação?",
     "info": "HTML5 é uma linguagem de marcação para a World Wide Web e é uma tecnologia chave da Internet.",
     "imagem": "https://gluby.com.br/wp-content/uploads/2024/06/sta-je-html.jpg",
-    "description": "...",
-    "video": ""
+    "description": "Você já se perguntou se HTML é uma linguagem de programação? Neste vídeo, vamos desvendar esse mistério e explicar de forma simples o que realmente é o HTML, como ele funciona e qual o seu papel no desenvolvimento web. Fique ligado e descubra a verdade por trás dessa dúvida tão comum no mundo da tecnologia!",
+    "video": "https://www.youtube.com/embed/Ejkb_YpuHWs?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n",
+    "id": 1
   },
   {
     "title": "O que é uma IDE?",
     "info": "Ambiente de Desenvolvimento Integrado é um programa de computador que reúne características e ferramentas de apoio ao desenvolvimento de software",
     "imagem": "https://hermes.dio.me/articles/cover/0ac755e2-5b18-4164-8b26-d0d1bd355694.png",
-    "description": "...",
-    "video": ""
+    "description": "Uma IDE (Integrated Development Environment) é um ambiente de desenvolvimento integrado, ou seja, uma ferramenta que reúne todos os recursos necessários para programar em um único lugar. Ela oferece um conjunto de funcionalidades, como editor de código, compilador ou interpretador, depurador (debugger) e ferramentas de gerenciamento de projeto.",
+    "video": "https://www.youtube.com/embed/cTJY-z3TbTw",
+    "id": 2
   },
   {
     "title": "ChatGPT é um chatbot desenvolvido pela OpenAI",
     "info": "O nome ChatGPT combina Chat, referindo-se à sua funcionalidade de chatbot, e GPT, que significa Generative Pre-trained Transformer",
     "imagem": "https://wallpapers.com/images/hd/ai-pictures-2200-x-1400-uk9etme8b9cgxgdd.jpg",
-    "description": "...",
-    "video": ""
+    "description": "ChatGPT é um chatbot desenvolvido pela OpenAI, projetado para interagir de forma natural e fornecer respostas em tempo real. Utilizando inteligência artificial avançada, ele é capaz de entender perguntas, oferecer informações, ajudar em tarefas e manter conversas envolventes. Descubra como essa tecnologia revolucionária pode transformar sua experiência online!",
+    "video": "https://www.youtube.com/embed/eTjpGBur7uE",
+    "id": 3
   },
   {
     "title": "O GitHub Copilot",
     "info": "é uma ferramenta de inteligência artificial desenvolvida pelo GitHub em conjunto com a OpenAI",
     "imagem": "https://github.blog/wp-content/uploads/2022/06/Copilot.jpeg?fit=1200%2C630",
-    "description": "...",
-    "video": ""
+    "description": "O GitHub Copilot é uma ferramenta de inteligência artificial desenvolvida pela GitHub em colaboração com a OpenAI. Ele atua como um assistente de programação, sugerindo automaticamente trechos de código e funções enquanto você escreve. Integrado a editores de código como Visual Studio Code, o Copilot aprende a partir de uma vasta base de dados de código aberto e pode ajudar desenvolvedores a aumentar sua produtividade, reduzir erros e explorar novas abordagens para resolver problemas de programação. É uma ferramenta poderosa para quem busca aprimorar suas habilidades e acelerar o processo de desenvolvimento de software!",
+    "video": "https://www.youtube.com/embed/4RfD5JiXt3A",
+    "id": 4
   },
   {
     "title": "GIT e GitHub: o que são e quais as diferenças entre eles?",
     "info": "Git e GibHub são dois softwares de controle de versão essenciais para...",
-    "imagem": "https://s2-techtudo.glbimg.com/0nXkOhKfpYTw5l2pH9iWoS6nQ5Y=/0x0:1255x613/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/F/e/GIKMMnSuq7dtUTgcu77w/tech1.jpeg",
-    "description": "...",
-    "video": ""
+    "imagem": "https://hermes.dio.me/articles/cover/febfe489-d027-4d8c-83a0-3da59310283b.png",
+    "description": "GIT é um sistema de controle de versão distribuído que permite aos desenvolvedores acompanhar e gerenciar mudanças no código ao longo do tempo. GitHub, por outro lado, é uma plataforma online que hospeda repositórios de projetos GIT, facilitando a colaboração entre desenvolvedores. Em resumo, GIT é a ferramenta de versionamento, enquanto GitHub é o serviço que permite armazenar e compartilhar projetos na nuvem.",
+    "video": "https://www.youtube.com/embed/P4BNi_yPehc",
+    "id": 5
   }
 ]

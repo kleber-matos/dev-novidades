@@ -5,7 +5,9 @@ import { Link } from "react-router-dom";
 export default function index() {
   return (
     <S.Header>
-      <img src={logo} alt="Logo marca da pagina" />
+      <Link to="/">
+        <img src={logo} alt="Logo marca da pagina" />
+      </Link>
 
       <nav>
         <ul>

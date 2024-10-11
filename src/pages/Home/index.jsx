@@ -1,5 +1,6 @@
 import Header from "../../components/Header";
 import Banner from "../../components/Banner";
+import Footer from "../../components/Footer";
 import Text from "../../components/Text";
 import Card from "../../components/Card";
 
@@ -16,10 +17,16 @@ export default function index() {
       <S.Container>
         <section>
           {data.map((e) => (
-            <Card title={e.title} description={e.info} imagem={e.imagem} />
+            <Card
+              title={e.title}
+              description={e.info}
+              imagem={e.imagem}
+              id={e.id}
+            />
           ))}
         </section>
       </S.Container>
+      <Footer />
     </>
   );
 }
