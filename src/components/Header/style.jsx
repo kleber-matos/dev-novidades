@@ -8,7 +8,7 @@ const Flexbox = css`
 
 export const Header = styled.header`
   ${Flexbox}
-  margin: 15px 5% 15px 5%;
+  margin: 17px 5% 15px 5%;
 
   img {
     width: 20vw;

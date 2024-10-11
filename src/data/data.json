@@ -1,6 +1,6 @@
 [
   {
-    "title": "O que é linguagem de programação? Conheça as principais",
+    "title": "O que é linguagem de programação?",
     "info": "Uma das mais populares vertentes da tecnologia da informação, a área de...",
     "imagem": "https://universidadedatecnologia.com.br/wp-content/uploads/2017/12/o-que-%C3%A9-ling-prog.jpg",
     "description": "Se você é apaixonado por programação, este vídeo é pra você! Prepare-se para mergulhar em um conteúdo cheio de insights e dicas práticas. Fique ligado na plataforma, porque vem muita novidade boa por aí! Não perca os próximos vídeos!",
@@ -40,11 +40,27 @@
     "id": 4
   },
   {
-    "title": "GIT e GitHub: o que são e quais as diferenças entre eles?",
+    "title": "GIT e GitHub?",
     "info": "Git e GibHub são dois softwares de controle de versão essenciais para...",
     "imagem": "https://hermes.dio.me/articles/cover/febfe489-d027-4d8c-83a0-3da59310283b.png",
     "description": "GIT é um sistema de controle de versão distribuído que permite aos desenvolvedores acompanhar e gerenciar mudanças no código ao longo do tempo. GitHub, por outro lado, é uma plataforma online que hospeda repositórios de projetos GIT, facilitando a colaboração entre desenvolvedores. Em resumo, GIT é a ferramenta de versionamento, enquanto GitHub é o serviço que permite armazenar e compartilhar projetos na nuvem.",
     "video": "https://www.youtube.com/embed/P4BNi_yPehc",
     "id": 5
+  },
+  {
+    "title": "Quais são as vantagens do React?",
+    "info": "O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web",
+    "imagem": "https://devjuniorplus.com.br/assets/images/lautaro-andreani-uysbcu9rp3y-unsplash.jpeg",
+    "description": "O React é uma poderosa biblioteca para construção de interfaces visuais em JavaScript. Ou seja, é uma ferramenta ideal para o desenvolvimento front-end. No React, você pode adotar estruturas do HTML e do JavaScript em um só código, a fim de manipular os aspectos da apresentação de um site.",
+    "video": "https://www.youtube.com/embed/4BxrxiMMjcA",
+    "id": 6
+  },
+  {
+    "title": "Guia de JavaScrip",
+    "info": "JavaScript é uma linguagem de programação usada por desenvolvedores para fazer páginas interativas da Internet.",
+    "imagem": "https://img-c.udemycdn.com/course/750x422/5887144_f7f6_7.jpg",
+    "description": "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web",
+    "video": "https://www.youtube.com/embed/WRlfwBof66s",
+    "id": 7
   }
 ]
