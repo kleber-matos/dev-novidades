@@ -15,7 +15,7 @@ export default function index() {
             <Link to="/">Inicio</Link>
           </li>
           <li>
-            <Link to="/preview">Artigos</Link>
+            <Link to="/">Artigos</Link>
           </li>
         </ul>
       </nav>
