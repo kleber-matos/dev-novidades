@@ -8,4 +8,8 @@ export const Footer = styled.footer`
   align-items: center;
   justify-content: center;
   background-color: #12254d;
+
+  h2 {
+    font-size: 1.5rem;
+  }
 `;
