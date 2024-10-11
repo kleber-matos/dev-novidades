@@ -16,8 +16,9 @@ export default function index() {
       <Text texto="Artigos recomendados" />
       <S.Container>
         <section>
-          {data.map((e) => (
+          {data.map((e, id) => (
             <Card
+              key={id}
               title={e.title}
               description={e.info}
               imagem={e.imagem}

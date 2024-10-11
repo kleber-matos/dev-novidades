@@ -8,7 +8,7 @@ const Flexbox = css`
 
 export const Header = styled.header`
   ${Flexbox}
-  margin: 20px 5% 15px 5%;
+  margin: 15px 5% 15px 5%;
 
   img {
     width: 20vw;
@@ -22,8 +22,8 @@ export const Header = styled.header`
     max-width: 350px;
   }
 
-  li {
-    font-size: 1.8rem;
+  a {
+    font-size: 1.4rem;
     font-weight: 600;
   }
 
@@ -33,11 +33,17 @@ export const Header = styled.header`
     }
 
     ul {
-      max-width: 150px;
+      max-width: 200px;
     }
 
-    li {
+    a {
       font-size: 1.2rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    img {
+      width: 8vw;
     }
   }
 `;
