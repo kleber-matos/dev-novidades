@@ -6,8 +6,10 @@ export default function index({ title, description, imagem, id }) {
     <S.Div>
       <Link to={`preview/${id}`}>
         <img src={imagem} alt="imagem ilustrativa sobre programação." />
-        <h2>{title}</h2>
-        <p>{description}</p>
+        <div>
+          <h2>{title}</h2>
+          <p>{description}</p>
+        </div>
       </Link>
     </S.Div>
   );

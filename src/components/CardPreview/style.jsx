@@ -47,4 +47,32 @@ export const Section = styled.section`
       margin: 0 2% 15px 2%;
     }
   }
+
+  /* 𝟹𝟸0𝚙𝚡 - 𝟺𝟾0𝚙𝚡: 𝙳𝚒𝚜𝚙𝚘𝚜𝚒𝚝𝚒𝚟𝚘𝚜 𝚖𝚘𝚟𝚎𝚒𝚜 */
+  @media (max-width: 480px) {
+    h2 {
+      font-size: 20px;
+    }
+
+    h3 {
+      font-size: 16px;
+      margin: 10px 0 10px 2%;
+    }
+
+    p {
+      font-size: 12px;
+    }
+  }
+
+  /* 𝟺𝟾𝟷𝚙𝚡 - 𝟽𝟼𝟾𝚙𝚡: 𝚃𝚊𝚋𝚕𝚎𝚝𝚜 */
+  @media (max-width: 768px) {
+    h3 {
+      font-size: 20px;
+      margin: 10px 0 10px 2%;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
 `;
