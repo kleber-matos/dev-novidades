@@ -52,7 +52,6 @@ export const Section = styled.section`
   @media (max-width: 480px) {
     h2 {
       font-size: 20px;
-      text-align: end;
     }
 
     h3 {
