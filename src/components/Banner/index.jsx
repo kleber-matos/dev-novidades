@@ -1,4 +1,3 @@
-import Banner from "../../assets/banner.png";
 import * as S from "./style";
 
 export default function index() {

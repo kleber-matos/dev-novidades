@@ -1,20 +1,19 @@
 import styled from "styled-components";
 
 export const Div = styled.div`
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  border-radius: 5px;
   width: 100vw;
   max-width: 590px;
+  border-radius: 5px;
   margin-bottom: 2rem;
   padding-bottom: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
   div {
+    height: 40%;
     display: flex;
+    padding: 0 8px 0 8px;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 0 8px 0 8px;
-
-    height: 40%;
   }
 
   img {

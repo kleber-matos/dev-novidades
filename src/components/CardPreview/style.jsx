@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const Section = styled.section`
   display: flex;
-  justify-content: center;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
+  justify-content: center;
 
   div {
     width: 70%;

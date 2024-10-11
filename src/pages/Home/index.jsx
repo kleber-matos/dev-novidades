@@ -14,6 +14,7 @@ export default function index() {
       <Header />
       <Banner />
       <Text texto="Artigos recomendados" />
+
       <S.Container>
         <section>
           {data.map((e, id) => (
@@ -27,6 +28,7 @@ export default function index() {
           ))}
         </section>
       </S.Container>
+
       <Footer />
     </>
   );
