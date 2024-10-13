@@ -12,6 +12,10 @@ export const Banner = styled.section`
   align-items: center;
   justify-content: center;
 
+  @media (max-width: 480px) {
+    height: 33vh;
+  }
+
   h1 {
     color: white;
     font-size: 4rem;
