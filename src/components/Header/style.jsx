@@ -8,11 +8,12 @@ const Flexbox = css`
 
 export const Header = styled.header`
   ${Flexbox}
-  margin: 17px 5% 15px 5%;
+  margin: 0 5%;
+  height: 8vh;
 
   img {
     width: 20vw;
-    max-width: 60px;
+    max-width: 45px;
   }
 
   ul {

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Div = styled.div`
   width: 100vw;
-  max-width: 440px;
+  max-width: 430px;
   margin: 0 10px 0 10px;
   border-radius: 5px;
   margin-bottom: 2rem;

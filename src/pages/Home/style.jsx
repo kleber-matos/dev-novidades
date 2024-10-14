@@ -5,7 +5,7 @@ export const Container = styled.section`
   justify-content: center;
 
   section {
-    width: 90%;
+    width: 88%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
