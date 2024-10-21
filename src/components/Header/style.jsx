@@ -14,6 +14,8 @@ export const Header = styled.header`
   @media (max-width: 700px) {
     flex-direction: column;
     justify-content: center;
+
+    margin: 15px 2% 0px 2%;
   }
 `;
 
@@ -62,6 +64,12 @@ export const ToggleButton = styled.button`
   color: #000000;
   font-size: 2.3rem;
   background: transparent;
+
+  .icon {
+    width: 20vw;
+    max-width: 45px;
+    height: 10vh;
+  }
 
   @media (min-width: 700px) {
     display: none;

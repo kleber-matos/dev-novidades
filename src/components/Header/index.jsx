@@ -29,6 +29,7 @@ import * as S from "./style";
 import { Link } from "react-router-dom";
 
 import React, { useState } from "react";
+import { IoMdClose, IoMdMenu } from "react-icons/io";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -47,7 +48,11 @@ const Header = () => {
             </Link>
           </S.Logo>
           <S.ToggleButton onClick={toggleMenu}>
-            {isOpen ? "X" : "☰"}
+            {isOpen ? (
+              <IoMdClose className="icon" />
+            ) : (
+              <IoMdMenu className="icon" />
+            )}
           </S.ToggleButton>
         </S.Container>
 
