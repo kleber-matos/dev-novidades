@@ -1,50 +1,69 @@
-import styled, { css } from "styled-components";
-
-const Flexbox = css`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-`;
+import styled from "styled-components";
 
 export const Header = styled.header`
-  ${Flexbox}
-  margin: 0 5%;
-  height: 8vh;
-
-  img {
-    width: 20vw;
-    max-width: 45px;
-  }
-
-  ul {
-    ${Flexbox}
-    width: 60vw;
-    flex-wrap: wrap;
-    max-width: 350px;
-  }
+  display: flex;
+  align-items: center;
+  margin: 15px 2% 15px 2%;
+  justify-content: space-between;
 
   a {
     font-size: 1.4rem;
     font-weight: 600;
   }
 
-  @media (max-width: 769px) {
-    img {
-      width: 10vw;
-    }
+  @media (max-width: 700px) {
+    flex-direction: column;
+    justify-content: center;
+  }
+`;
 
-    ul {
-      max-width: 200px;
-    }
+export const Container = styled.div`
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-    a {
-      font-size: 1.2rem;
+  @media (max-width: 700px) {
+    width: 100%;
+  }
+`;
+
+export const Logo = styled.div`
+  img {
+    width: 20vw;
+    max-width: 45px;
+  }
+`;
+
+export const Menu = styled.ul`
+  width: 60vw;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+  max-width: 400px;
+  justify-content: space-between;
+
+  @media (max-width: 700px) {
+    display: ${({ isOpen }) => (isOpen ? "flex" : "none")};
+
+    height: 36vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    li {
+      font-size: 1.4rem;
     }
   }
+`;
 
-  @media (max-width: 480px) {
-    img {
-      width: 8vw;
-    }
+export const ToggleButton = styled.button`
+  border: none;
+  cursor: pointer;
+  color: #000000;
+  font-size: 2.3rem;
+  background: transparent;
+
+  @media (min-width: 700px) {
+    display: none;
   }
 `;
