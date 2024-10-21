@@ -53,13 +53,10 @@ const Header = () => {
 
         <S.Menu isOpen={isOpen}>
           <li to="/">
-            <Link to="/">HOME</Link>
+            <Link to="/">Inicio</Link>
           </li>
           <li>
-            <Link to="/filmes">FILMS</Link>
-          </li>
-          <li>
-            <Link to="/series">SERIES</Link>
+            <Link to="/filmes">Artigos</Link>
           </li>
         </S.Menu>
       </S.Header>
