@@ -42,8 +42,26 @@ export const Menu = styled.ul`
   display: flex;
   flex-wrap: wrap;
   max-width: 600px;
-  max-width: 400px;
   justify-content: space-between;
+  align-items: center;
+  /* border: solid; */
+
+  input {
+    width: 15vw;
+    outline: none;
+    padding-left: 10px;
+    height: 4vh;
+    border-radius: 3px;
+    border: solid 3px #00000039;
+    font-weight: 700;
+    font-size: 17px;
+    /* background-color: #949494; */
+
+    @media (max-width: 700px) {
+      width: 100%;
+      height: 6vh;
+    }
+  }
 
   @media (max-width: 700px) {
     display: ${({ isOpen }) => (isOpen ? "flex" : "none")};

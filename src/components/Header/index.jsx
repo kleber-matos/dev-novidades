@@ -61,7 +61,10 @@ const Header = () => {
             <Link to="/">Inicio</Link>
           </li>
           <li>
-            <Link to="/filmes">Artigos</Link>
+            <Link to="/">Artigos</Link>
+          </li>
+          <li>
+            <input placeholder="Buscar..." type="text" />
           </li>
         </S.Menu>
       </S.Header>
